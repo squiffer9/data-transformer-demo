@@ -1,0 +1,53 @@
+# Go binaries and build artifacts
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Go workspace file
+go.work
+
+# Build directory
+bin/
+build/
+
+# Dependencies
+vendor/
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Environment variables
+.env
+.env.*
+
+# Project specific
+performance_report.txt
+response_time_percentiles.png
+k6_output.txt
+test-results.json
+
+# Test binary, built with `go test -c`
+*.test
+
+# Docker volumes
+mysql_data/
+
+# Log files
+*.log
+
+# Temporary files
+tmp/
+temp/
+
+# Python virtual environment
+venv/
+__pycache__/
+*.pyc
